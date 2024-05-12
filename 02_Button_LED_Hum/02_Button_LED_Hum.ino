@@ -61,6 +61,7 @@ void setup(void) {
   pinMode(PIN_GREEN, OUTPUT);
   pinMode(PIN_BLUE, OUTPUT);
   pinMode(PIN_SWITCH, OUTPUT);
+  pinMode(PIN_BUTTON, INPUT);
   digitalWrite(PIN_RED, LED_OFF);
   digitalWrite(PIN_GREEN, LED_OFF);
   digitalWrite(PIN_BLUE, LED_OFF);
